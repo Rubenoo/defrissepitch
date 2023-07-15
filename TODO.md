@@ -1,0 +1,3 @@
+- env file maken
+- SEO optimaliseren
+- gh-pages
