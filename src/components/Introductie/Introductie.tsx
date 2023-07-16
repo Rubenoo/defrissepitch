@@ -2,7 +2,7 @@ import "./styles.scss";
 
 const Introductie: React.FunctionComponent = () => {
   return (
-    <section>
+    <section className="introductie">
       <div className="achtergrond-licht-groen">
         <h1>
           de
@@ -11,12 +11,14 @@ const Introductie: React.FunctionComponent = () => {
           <br />
           pitch
         </h1>
+        <div className="overlay-svg" />
       </div>
+
       <div>
         <div className="card">
           <h2>wild idee?</h2>
           <p>
-            Pitch jouw idee om Zeist nog leuker, socialer en duurnamer te maken
+            Pitch jouw idee om Zeist nog leuker, socialer en duurzamer te maken
             en maak kans op €1.000 cash om je idee uit te voeren!
           </p>
           <button type="button" className="btn">
