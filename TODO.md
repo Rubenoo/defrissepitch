@@ -1,3 +1,6 @@
 - env file maken
 - SEO optimaliseren
 - gh-pages
+- file input andere styling
+- email js
+- validaties

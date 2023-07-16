@@ -1,0 +1,130 @@
+h1.inschrijven-titel {
+  color: white;
+  background-color: var(--donker-groen);
+  font-size: 3em;
+  padding-inline: 2em;
+  padding-block: 0.5em;
+  display: inline-block;
+  margin: 0;
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr;
+    font-size: 2em;
+    margin: 0 auto; // Horizontal centering
+    display: flex;
+    justify-content: center; // Vertical centering
+    max-width: 300px;
+  }
+}
+
+.btn-primary {
+  display: block;
+  margin-inline-start: auto;
+  color: white;
+  font-weight: 700;
+  background-color: var(--donker-groen);
+  border-color: var(--donker-groen);
+  border-radius: 0;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+  @media (max-width: 992px) {
+    margin-inline-end: auto;
+  }
+}
+
+form {
+  padding: 6em 10em 0;
+  background-color: var(--fris-groen);
+  position: relative;
+
+  .svg-oog,
+  .svg-stekker,
+  .svg-recycle {
+    position: absolute;
+    width: 150px; /* adjust this as needed */
+    height: 150px; /* adjust this as needed */
+    transform: rotate(-10deg);
+    @media (max-width: 992px) {
+      display: none;
+    }
+  }
+
+  .svg-oog {
+    width: 180px; /* adjust this as needed */
+    height: 180px; /* adjust this as needed */
+    /* adjust these as needed */
+    top: -4%;
+    right: 10%;
+    transform: translateX(-50%) rotate(-15deg); /* centers the SVG horizontally */
+  }
+
+  .svg-stekker {
+    /* adjust these as needed */
+    left: -8%;
+    top: 40%;
+  }
+
+  .svg-recycle {
+    /* adjust these as needed */
+    top: 80%;
+    right: -13%;
+    transform: translateX(-50%) rotate(15deg); /* centers the SVG horizontally */
+  }
+
+  @media (max-width: 992px) {
+    padding-block: 0;
+    padding-inline: 1em;
+  }
+
+  small {
+    color: var(--donker-groen);
+    font-size: 1em;
+  }
+
+  label {
+    font-weight: 700;
+    font-size: 1.3em;
+  }
+
+  legend {
+    font-family: "europa", sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin-block-end: 1em;
+    @media (max-width: 992px) {
+      margin-block-start: 1em;
+      margin-block-end: 0.5em;
+      font-size: 1.5em;
+    }
+  }
+
+  input,
+  textarea {
+    border-radius: 0;
+    color: var(--donker-groen);
+    padding: 0.7em 1em;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--donker-groen);
+    opacity: 0.6;
+  }
+}
+
+.svg-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.partial-svg {
+  position: absolute;
+  rotate: 90deg;
+  bottom: 115%;
+  z-index: -1;
+  scale: 1.4;
+  @media (max-width: 992px) {
+    bottom: 100%;
+  }
+}
