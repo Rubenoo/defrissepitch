@@ -11,7 +11,7 @@ const Introductie: React.FunctionComponent = () => {
           <br />
           pitch
         </h1>
-        <div className="overlay-svg" />
+        <div className="overlay-svg overlay-svg--bij-blaadje" />
       </div>
 
       <div>

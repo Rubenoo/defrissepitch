@@ -1,0 +1,18 @@
+.svg-randvoorwaarden {
+  margin-block-start: 50%;
+  @media (max-width: 992px) {
+    margin-block-start: 40%;
+    margin-inline: 50% 50%;
+  }
+}
+
+.svg-uitgangspunten {
+  display: none;
+  @media (max-width: 992px) {
+    display: block;
+
+    margin-block-start: 1.5em;
+    margin-block-end: 2em;
+    margin-inline: 50% 50%;
+  }
+}

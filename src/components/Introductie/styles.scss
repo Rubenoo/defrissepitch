@@ -45,44 +45,6 @@ section.introductie {
   }
 }
 
-.overlay-svg {
-  position: relative;
-  width: 150px; // Define your size
-  height: 150px; // Define your size
-  margin-inline-start: 50%;
-  margin-block-start: 2em;
-
-  @media (max-width: 992px) {
-    margin-block-start: 0;
-    margin-inline-start: 4em;
-    width: 100px; // Define your size
-    height: 100px; // Define your size
-  }
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-
-  &::before {
-    background-image: url("/assets/svg/FP_sticker_RGB_bij.svg");
-    z-index: 1;
-  }
-
-  &::after {
-    background-image: url("/assets/svg/FP_sticker_RGB_blaadjes.svg");
-    rotate: -10deg;
-
-    // Adjust these to create the overlay effect
-    left: -50%;
-    top: 80%;
-    z-index: 2;
-  }
-}
-
 .card {
   position: relative;
   background-color: var(--donker-groen);

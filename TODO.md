@@ -4,3 +4,4 @@
 - file input andere styling
 - email js
 - validaties
+- links header fixen

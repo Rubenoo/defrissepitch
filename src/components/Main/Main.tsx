@@ -1,6 +1,7 @@
 import Introductie from "../Introductie/Introductie.tsx";
 import VoorWie from "../VoorWie/VoorWie.tsx";
 import Inschrijven from "../Inschrijven/Inschrijven.tsx";
+import UitgangspuntenRandvoorwaarden from "../UitgangspuntenRandvoorwaarden/UitgangspuntenRandvoorwaarden.tsx";
 
 const Main: React.FunctionComponent = () => {
   return (
@@ -8,6 +9,7 @@ const Main: React.FunctionComponent = () => {
       <Introductie />
       <VoorWie />
       <Inschrijven />
+      <UitgangspuntenRandvoorwaarden />
     </main>
   );
 };
