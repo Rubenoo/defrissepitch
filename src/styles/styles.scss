@@ -35,6 +35,13 @@
     font-weight: 700;
   }
 
+  p {
+    color: var(--donker-groen);
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 0;
+  }
+
   h2 {
     font-family: "noka", sans-serif;
     font-weight: 700;
@@ -163,6 +170,27 @@
       // Adjust these to create the overlay effect
       left: -100%;
       top: -75%;
+      z-index: 1;
+    }
+
+    &--recycle-stekker--vragen::before {
+      background-image: url("/assets/svg/FP_sticker_RGB_stekker_2.svg");
+      rotate: -15deg;
+      z-index: 2;
+      width: 150px;
+      height: 150px;
+    }
+
+    &--recycle-stekker--vragen::after {
+      background-image: url("/assets/svg/FP_sticker_RGB_recycle_2.svg");
+
+      rotate: 10deg;
+      width: 150px;
+      height: 150px;
+
+      // Adjust these to create the overlay effect
+      left: -50%;
+      top: -85%;
       z-index: 1;
     }
   }

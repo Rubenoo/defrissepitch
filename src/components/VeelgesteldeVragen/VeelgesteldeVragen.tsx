@@ -10,12 +10,14 @@ type VragenLijst = {
 
 const VeelgesteldeVragen: React.FC = () => {
   return (
-    <section className="container text-start">
+    <section className="container text-start position-relative">
+      <div className="overlay-svg overlay-svg--recycle-stekker--vragen svg-vragen" />
+
       <h3 className="text-center">Veelgestelde vragen</h3>
       {VragenLijstJSON.map((vragenLijst: VragenLijst, index) => {
         return (
           <React.Fragment key={index}>
-            <h4 key={index}>{vragenLijst.titel}</h4>
+            <h4 className="h4-vragen">{vragenLijst.titel}</h4>
             <div
               className="accordion accordion-flush"
               id={`accordionVragen-${index}`}

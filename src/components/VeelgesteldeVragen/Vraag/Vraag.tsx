@@ -13,7 +13,7 @@ const Vraag: React.FC<Props> = ({ titel, content, vraagKey }) => {
     <div className="accordion-item">
       <h5 className="accordion-header">
         <button
-          className="accordion-button collapsed"
+          className="vraag-button accordion-button collapsed "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target={`#panelsStayOpen-collapse-${vraagKey}`}
@@ -27,7 +27,9 @@ const Vraag: React.FC<Props> = ({ titel, content, vraagKey }) => {
         id={`panelsStayOpen-collapse-${vraagKey}`}
         className="accordion-collapse collapse"
       >
-        <div className="accordion-body">{content}</div>
+        <div className="accordion-body">
+          <p>{content}</p>
+        </div>
       </div>
     </div>
   );
