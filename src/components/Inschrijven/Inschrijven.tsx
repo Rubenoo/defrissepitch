@@ -7,17 +7,17 @@ const Inschrijven: React.FunctionComponent = () => {
       <form>
         <img
           className="svg-oog"
-          src="/assets/svg/FP_sticker_RGB_oog.svg"
+          src="/defrissepitch/assets/svg/FP_sticker_RGB_oog.svg"
           alt="Sticker oog"
         />
         <img
           className="svg-stekker"
-          src="/assets/svg/FP_sticker_RGB_stekker.svg"
+          src="/defrissepitch/assets/svg/FP_sticker_RGB_stekker.svg"
           alt="Sticker stekker"
         />
         <img
           className="svg-recycle"
-          src="/assets/svg/FP_sticker_RGB_recycle.svg"
+          src="/defrissepitch/assets/svg/FP_sticker_RGB_recycle.svg"
           alt="Sticker recycle"
         />
         <fieldset>
@@ -326,7 +326,7 @@ const Inschrijven: React.FunctionComponent = () => {
       <div className="svg-container">
         <img
           className="partial-svg"
-          src="/assets/svg/FP_beeldmerk_RGB_vorm.svg"
+          src="/defrissepitch/assets/svg/FP_beeldmerk_RGB_vorm.svg"
           alt="SVG"
         />
       </div>
