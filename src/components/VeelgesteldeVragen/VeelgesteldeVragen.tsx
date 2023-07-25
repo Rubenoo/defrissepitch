@@ -10,7 +10,10 @@ type VragenLijst = {
 
 const VeelgesteldeVragen: React.FC = () => {
   return (
-    <section className="container text-start position-relative">
+    <section
+      className="container text-start position-relative"
+      id="veelgesteldevragen"
+    >
       <div className="overlay-svg overlay-svg--recycle-stekker--vragen svg-vragen" />
 
       <h3 className="text-center">Veelgestelde vragen</h3>

@@ -21,9 +21,9 @@ const Introductie: React.FunctionComponent = () => {
             Pitch jouw idee om Zeist nog leuker, socialer en duurzamer te maken
             en maak kans op €1.000 cash om je idee uit te voeren!
           </p>
-          <button type="button" className="btn">
+          <a className="btn" href="#inschrijven">
             Inschrijven!
-          </button>
+          </a>
         </div>
       </div>
     </section>

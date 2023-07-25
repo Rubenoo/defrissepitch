@@ -2,7 +2,7 @@ import "./styles.scss";
 
 const Footer: React.FunctionComponent = () => {
   return (
-    <footer className="container">
+    <footer className="container" id="footer">
       <img
         className="svg-lamp"
         src="/defrissepitch/assets/svg/FP_sticker_RGB_lampje_2.svg"

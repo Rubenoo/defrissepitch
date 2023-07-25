@@ -7,4 +7,8 @@
 - Footer kleiner maker en responsive
 - feedback emma
 
-- voor livegang de /defrissepitch/ prefix weghalen
+- voor livegang:
+  -- de /defrissepitch/ prefix weghalen
+- Basin
+  -- plan upgraden
+  -- email aanapssen

@@ -1,6 +1,19 @@
 import "./styles.scss";
 
 const Header: React.FunctionComponent = () => {
+  const handleClick =
+    (id: string) =>
+    (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+      event.preventDefault();
+
+      setTimeout(() => {
+        const targetElement = document.querySelector(`#${id}`);
+
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 500);
+    };
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -34,12 +47,22 @@ const Header: React.FunctionComponent = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 gap-3">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a
+                    className="nav-link"
+                    data-bs-target="#offcanvasNavbar"
+                    data-bs-toggle="offcanvas"
+                    onClick={handleClick("veelgesteldevragen")}
+                  >
                     Veelgestelde vragen
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a
+                    className="nav-link"
+                    data-bs-target="#offcanvasNavbar"
+                    data-bs-toggle="offcanvas"
+                    onClick={handleClick("footer")}
+                  >
                     Contact
                   </a>
                 </li>

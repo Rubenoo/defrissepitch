@@ -42,7 +42,7 @@ const Inschrijven: React.FunctionComponent = () => {
     }
   };
   return (
-    <section className="text-start">
+    <section className="text-start" id="inschrijven">
       <ToastContainer
         position="top-right"
         autoClose={5000}
