@@ -1,6 +1,29 @@
+header {
+  margin: 0 auto;
+  padding: 2rem 1rem 0;
+  text-align: center;
+  max-width: 1280px;
+
+  @media (min-width: 992px) {
+    padding: 2rem 4rem 0;
+  }
+  @media (min-width: 768px) {
+    padding: 2rem 2rem 0;
+  }
+}
+
 .nav-item {
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.4em;
+  color: var(--donker-groen);
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color: var(--donker-groen);
+  font-weight: 700;
+  display: inherit;
 }
 
 .navbar-toggler {
@@ -45,7 +68,6 @@
 .middle-bar {
   margin-top: 0;
 }
-
 /* State when the navbar is show */
 
 .navbar-toggler.show .top-bar {

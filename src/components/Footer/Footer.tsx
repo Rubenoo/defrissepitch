@@ -2,14 +2,14 @@ import "./styles.scss";
 
 const Footer: React.FunctionComponent = () => {
   return (
-    <footer className="container" id="footer">
+    <footer id="footer">
       <img
         className="svg-lamp"
         src="/defrissepitch/assets/svg/FP_sticker_RGB_lampje_2.svg"
         alt="Sticker lampje"
       />
       <div className="row text-start">
-        <div className="col-lg-4 col-sm-12 logo-container">
+        <div className="col-lg-3 col-sm-12 logo-container">
           <img
             src="/defrissepitch/assets/svg/FP_beeldmerk_RGB_vorm_staand.svg"
             alt="Logo frisse start"

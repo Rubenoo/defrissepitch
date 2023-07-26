@@ -11,8 +11,10 @@
     --midden-groen: rgb(0, 143, 111);
     --licht-paars: rgb(153, 151, 241);
   }
-
   #root {
+    display: contents;
+  }
+  main {
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem 1rem;
@@ -63,12 +65,18 @@
       color: var(--fris-groen);
       font-size: 1em;
     }
-    margin-block-end: 1.5em;
+    margin-block-end: 0;
+    @media (max-width: 992px) {
+      margin-block-end: 1.5em;
+    }
 
     li {
       color: var(--donker-groen);
       font-size: 1.2em;
       margin-block-end: 0.5em;
+      @media (max-width: 992px) {
+        font-size: 1em;
+      }
 
       ::marker {
         color: var(--donker-groen);
@@ -78,6 +86,9 @@
       ol {
         color: var(--donker-groen);
         font-size: 0.8em;
+        @media (max-width: 992px) {
+          font-size: 1em;
+        }
       }
     }
   }
@@ -113,7 +124,10 @@
     &--bij-blaadje::after {
       background-image: url("/defrissepitch/assets/svg/FP_sticker_RGB_blaadjes.svg");
       rotate: -10deg;
-
+      @media (max-width: 992px) {
+        width: 90px; // Define your size
+        height: 90px; // Define your size
+      }
       // Adjust these to create the overlay effect
       left: -50%;
       top: 80%;

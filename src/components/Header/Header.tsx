@@ -3,12 +3,11 @@ import "./styles.scss";
 const Header: React.FunctionComponent = () => {
   const handleClick =
     (id: string) =>
-    (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
       event.preventDefault();
 
       setTimeout(() => {
         const targetElement = document.querySelector(`#${id}`);
-
         if (targetElement) {
           targetElement.scrollIntoView({ behavior: "smooth" });
         }
@@ -47,24 +46,22 @@ const Header: React.FunctionComponent = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 gap-3">
                 <li className="nav-item">
-                  <a
+                  <button
                     className="nav-link"
-                    data-bs-target="#offcanvasNavbar"
-                    data-bs-toggle="offcanvas"
+                    data-bs-dismiss="offcanvas"
                     onClick={handleClick("veelgesteldevragen")}
                   >
                     Veelgestelde vragen
-                  </a>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <button
                     className="nav-link"
-                    data-bs-target="#offcanvasNavbar"
-                    data-bs-toggle="offcanvas"
+                    data-bs-dismiss="offcanvas"
                     onClick={handleClick("footer")}
                   >
                     Contact
-                  </a>
+                  </button>
                 </li>
               </ul>
             </div>

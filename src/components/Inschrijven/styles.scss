@@ -35,6 +35,7 @@ form {
   padding: 6em 10em 0;
   background-color: var(--fris-groen);
   position: relative;
+  color: var(--donker-groen);
 
   .svg-oog,
   .svg-stekker,
@@ -52,21 +53,21 @@ form {
     width: 180px; /* adjust this as needed */
     height: 180px; /* adjust this as needed */
     /* adjust these as needed */
-    top: -4%;
-    right: 10%;
+    top: -95px;
+    right: 65px;
     transform: translateX(-50%) rotate(-15deg); /* centers the SVG horizontally */
   }
 
   .svg-stekker {
     /* adjust these as needed */
-    left: -8%;
+    left: -90px;
     top: 40%;
   }
 
   .svg-recycle {
     /* adjust these as needed */
     top: 80%;
-    right: -13%;
+    right: -150px;
     transform: translateX(-50%) rotate(15deg); /* centers the SVG horizontally */
   }
 
@@ -114,10 +115,10 @@ form {
 .svg-container {
   position: relative;
   width: 100%;
-  height: 240px;
+  height: 280px;
   overflow: hidden;
   @media (max-width: 992px) {
-    height: 120px;
+    height: 160px;
   }
 }
 

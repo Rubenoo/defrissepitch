@@ -138,7 +138,7 @@ const Inschrijven: React.FunctionComponent = () => {
                   />
                   <div className="invalid-feedback">Geef een postcode op.</div>
                 </div>
-                <div className="col-6 col-sm-3">
+                <div className="col-6">
                   <input
                     type="text"
                     id="inputHuisNummer"

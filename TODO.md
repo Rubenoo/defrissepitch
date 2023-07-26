@@ -1,14 +1,10 @@
 - file input andere styling
-- links header fixen
 - SEO optimaliseren
-- svg px ipv %
-- footer/header full width
-- div id root: display contents
-- Footer kleiner maker en responsive
-- feedback emma
 
+- vragen:
+  -- link in footer?
 - voor livegang:
   -- de /defrissepitch/ prefix weghalen
 - Basin
   -- plan upgraden
-  -- email aanapssen
+  -- email aanpassen

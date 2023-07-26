@@ -2,6 +2,8 @@
   margin-block-start: 50%;
   @media (max-width: 992px) {
     margin-block-start: 40%;
+    margin-block-end: 1em;
+
     margin-inline: 50% 50%;
   }
 }

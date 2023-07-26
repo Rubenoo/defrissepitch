@@ -1,24 +1,15 @@
 footer {
-  margin-block-start: 14em;
+  margin: 6em auto 0 auto;
+  padding: 8em 2em 4em 2em;
+  text-align: center;
+  max-width: 1280px;
   position: relative;
-  overflow: visible;
-  padding: 1em;
 
-  &::after {
-    content: "";
-    position: absolute;
-    width: 138%;
-    height: 150%;
-    background-image: url("/defrissepitch/assets/svg/FP_beeldmerk_RGB_vorm_liggend_blanco.svg");
-    left: -10%;
-    top: -40%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    @media (max-width: 992px) {
-      top: -15%;
-      height: 125%;
-    }
+  background-image: url("/defrissepitch/assets/svg/FP_beeldmerk_RGB_vorm_liggend_blanco.svg");
+  background-size: cover;
+  @media (max-width: 992px) {
+    margin: 0 auto;
+    padding: 5em 2em 4em 2em;
   }
   .svg-lamp {
     position: absolute;
@@ -26,26 +17,44 @@ footer {
     width: 180px; /* adjust this as needed */
     height: 180px; /* adjust this as needed */
     /* adjust these as needed */
-    top: -50%;
-    right: -15%;
+    top: -80px;
+    right: 200px;
     transform: rotate(15deg); /* centers the SVG horizontally */
     @media (max-width: 992px) {
       width: 100px; /* adjust this as needed */
       height: 100px; /* adjust this as needed */
-      right: -5%;
-      top: -18%;
+      top: -30px;
+      right: 30px;
     }
   }
 
   p {
     color: var(--donker-groen);
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0;
+    @media (max-width: 992px) {
+      font-size: 1.1em;
+    }
+  }
+
+  a {
+    font-size: 1.2em;
+    font-weight: 500;
+    @media (max-width: 992px) {
+      font-size: 1.1em;
+    }
   }
   h4 {
     margin-block-start: 1em;
     margin-block-end: 0.5em;
+    font-size: 1.8em;
+
+    @media (max-width: 992px) {
+      font-size: 1.5em;
+      margin-block-start: 0.5em;
+      margin-block-end: 0.25em;
+    }
   }
 }
 
@@ -58,5 +67,4 @@ footer {
   display: flex;
   align-items: end;
   justify-content: start;
-
 }
