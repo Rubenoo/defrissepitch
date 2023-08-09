@@ -1,5 +1,4 @@
-- voor livegang:
-  -- de /defrissepitch/ prefix weghalen
+
 - Basin
   -- plan upgraden
   -- email aanpassen
