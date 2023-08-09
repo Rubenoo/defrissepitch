@@ -1,16 +1,16 @@
 import Introductie from "../Introductie/Introductie.tsx";
-import VoorWie from "../VoorWie/VoorWie.tsx";
+import DeFrissePitch from "../DeFrissePitch/DeFrissePitch.tsx";
 import Inschrijven from "../Inschrijven/Inschrijven.tsx";
-import UitgangspuntenRandvoorwaarden from "../UitgangspuntenRandvoorwaarden/UitgangspuntenRandvoorwaarden.tsx";
+import IdeeCriteria from "../IdeeCriteria/IdeeCriteria.tsx";
 import VeelgesteldeVragen from "../VeelgesteldeVragen/VeelgesteldeVragen.tsx";
 
 const Main: React.FunctionComponent = () => {
   return (
     <main>
       <Introductie />
-      <VoorWie />
+      <DeFrissePitch />
       <Inschrijven />
-      <UitgangspuntenRandvoorwaarden />
+      <IdeeCriteria />
       <VeelgesteldeVragen />
     </main>
   );

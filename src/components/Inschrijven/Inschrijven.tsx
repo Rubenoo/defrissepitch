@@ -343,13 +343,13 @@ const Inschrijven: React.FunctionComponent = () => {
 
           <div className="mb-lg-4 mb-2">
             <label htmlFor="input6" className="form-label">
-              6. Hoe match jouw idee met onze vijf criteria?
+              6. Waarom is jouw idee een Frisse Pitch idee (zie criteria)?
             </label>
             <textarea
               className="form-control"
               id="input6"
               rows={3}
-              name="6. Hoe match jouw idee met onze vijf criteria?"
+              name="6. Waarom is jouw idee een Frisse Pitch idee (zie criteria)?"
               aria-describedby="input6Help"
               aria-label="Vraag 6"
               maxLength={300}
@@ -379,18 +379,17 @@ const Inschrijven: React.FunctionComponent = () => {
 
           <div className="mb-lg-4 mb-2">
             <label htmlFor="input8" className="form-label">
-              8. Hoe ga je de 1000 Euro gebruiken?
+              8. Hoe ga je de €1.000 gebruiken?
             </label>
             <small id="input8Help">
               <br />
-              (kan hetzelfde zijn als punt 9) Let op: te besteden binnen een
-              jaar.
+              Let op: te besteden binnen een jaar.
             </small>
             <textarea
               className="form-control mt-2 mt-lg-3"
               id="input8"
               rows={3}
-              name="8. Hoe ga je de 1000 Euro gebruiken?"
+              name="8. Hoe ga je de €1.000 gebruiken?"
               aria-describedby="input8Help"
               aria-label="Vraag 8"
               maxLength={300}

@@ -39,8 +39,11 @@ footer {
   }
 
   a {
-    font-size: 1.2em;
     font-weight: 500;
+    margin-inline-end: 0.25em;
+  }
+  address a {
+    font-size: 1.2em;
     @media (max-width: 992px) {
       font-size: 1.1em;
     }

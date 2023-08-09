@@ -19,30 +19,38 @@ const Footer: React.FunctionComponent = () => {
         <div className="col-lg-4 col-sm-12">
           <h4>op de hoogte blijven?</h4>
           <p>
-            Op de hoogte blijven? Meld je aan [link] voor de maandelijkse
-            nieuwsbrief van Samen Duurzaam Zeist.
+            Volg onze socials voor alle ins en outs en updates over de Frisse
+            Pitch en de Frisse Pitch Night op 10 oktober in het Torenlaan
+            Theater{" "}
+            <a target="_blank" href="https://www.instagram.com/stadslabzeist">
+              @stadslabzeist
+            </a>
+            en{" "}
+            <a
+              target="_blank"
+              href="https://www.instagram.com/samenduurzaamzeist"
+            >
+              @samenduurzaamzeist
+            </a>
           </p>
           <h4>contact</h4>
           <address className="d-flex flex-column">
-            <a href="mailto: willy@stadslabzeist.nl">willy@stadslabzeist.nl</a>
-            <a href="mailto: wijzijn@stadslabzeist.nl">
-              wijzijn@stadslabzeist.nl
-            </a>
+            <a href="mailto: idee@frissepitch.nl">idee@frissepitch.nl</a>
           </address>
         </div>
         <div className="col-lg-4 col-sm-12">
-          <h4>het frisse pitch team</h4>
+          <h4>het Frisse Pitch team</h4>
           <p>
             <strong>Willy Douma</strong> - Stadslab Zeist
             <br />
             <strong>Merel de Jong</strong> - Stadslab Zeist
             <br />
-            <strong>Margreet van der Pijl Douma</strong> - Samen Duurzaam Zeist
+            <strong>Margreet van der Pijl</strong> - Samen Duurzaam Zeist
             <br />
-            <strong>Fons van der Velden</strong> - Samen Duurzaam Zeist
+            <strong>Fons Pennings</strong> - Samen Duurzaam Zeist
             <br />
             <br />
-            De gemeente Zeist ondersteunt het initiatief inhoudelijk en
+            Gemeente Zeist ondersteunt de Frisse Pitch inhoudelijk en
             financieel.
           </p>
         </div>
