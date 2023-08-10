@@ -5,6 +5,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Inschrijven: React.FunctionComponent = () => {
   const [succes, setSucces] = useState(false);
+  const [loading, setLoading] = useState(false);
+
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     //handle validation
@@ -15,6 +17,7 @@ const Inschrijven: React.FunctionComponent = () => {
     event.currentTarget.className = "was-validated";
 
     if (event.currentTarget.checkValidity()) {
+      setLoading(true);
       const formData = new FormData(event.currentTarget);
       // When checking the file input reference, it's good practice to check if current and files exist:
       fetch("https://usebasin.com/f/ba72d7ff7419", {
@@ -24,7 +27,8 @@ const Inschrijven: React.FunctionComponent = () => {
         .then((response) => {
           if (response.ok) {
             setSucces(true);
-            toast.success("Je pitch is succesvol verstuurd!");
+            setLoading(false);
+            toast.success("Wij hebben jouw idee ontvangen!");
           }
           if (!response.ok)
             toast.error(
@@ -113,7 +117,7 @@ const Inschrijven: React.FunctionComponent = () => {
                 required
                 name="Contactpersoon"
                 className="form-control"
-                placeholder="Voornaam Achternaam"
+                placeholder="Naam"
                 aria-describedby="contactpersoonHelp"
               />
               <div className="invalid-feedback">
@@ -123,64 +127,20 @@ const Inschrijven: React.FunctionComponent = () => {
           </div>
 
           <div className="mb-lg-3 mb-1 row">
-            <label className="col-sm-3 col-form-label">Adres</label>
-            <div className="col-sm-9 d-flex flex-column">
-              <div className="row">
-                <div className="col-6 col-sm-6">
-                  <input
-                    type="text"
-                    id="inputPostcode"
-                    required
-                    name="Postcode"
-                    className="form-control mb-2"
-                    placeholder="Postcode"
-                    aria-describedby="postcodeHelp"
-                  />
-                  <div className="invalid-feedback">Geef een postcode op.</div>
-                </div>
-                <div className="col-6">
-                  <input
-                    type="text"
-                    id="inputHuisNummer"
-                    required
-                    name="HuisNummer"
-                    className="form-control mb-2"
-                    placeholder="Huisnr en toevoeging"
-                    aria-describedby="huisNummerHelp"
-                  />
-                  <div className="invalid-feedback">
-                    Geef een huisnummer op.
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12 col-sm-6">
-                  <input
-                    type="text"
-                    id="inputPlaats"
-                    required
-                    name="Plaats"
-                    className="form-control mb-2"
-                    placeholder="Plaats"
-                    aria-describedby="plaatsHelp"
-                  />
-                  <div className="invalid-feedback">Geef een plaats op.</div>
-                </div>
-                <div className="col-12 col-sm-6">
-                  <input
-                    type="text"
-                    id="inputStraatnaam"
-                    name="Straatnaam"
-                    required
-                    className="form-control mb-2"
-                    placeholder="Straatnaam"
-                    aria-describedby="straatnaamHelp"
-                  />
-                  <div className="invalid-feedback">
-                    Geef een straatnaam op.
-                  </div>
-                </div>
-              </div>
+            <label htmlFor="inputPlaats" className="col-sm-3 col-form-label">
+              Adres
+            </label>
+            <div className="col-sm-9">
+              <input
+                type="text"
+                id="inputPlaats"
+                required
+                name="Woonplaats"
+                className="form-control"
+                placeholder="Woonplaats"
+                aria-describedby="woonplaatsHelp"
+              />
+              <div className="invalid-feedback">Geef een plaats op.</div>
             </div>
           </div>
 
@@ -209,17 +169,14 @@ const Inschrijven: React.FunctionComponent = () => {
           </div>
 
           <div className="mb-lg-3 mb-1 row">
-            <label
-              htmlFor="inputEmailadres"
-              className="col-sm-3 col-form-label"
-            >
+            <label htmlFor="email_address" className="col-sm-3 col-form-label">
               Emailadres
             </label>
             <div className="col-sm-9">
               <input
                 type="email"
-                id="inputEmailadres"
-                name="Emailadres"
+                id="email_address"
+                name="email_address"
                 required
                 className="form-control"
                 placeholder="email@adres.nl"
@@ -237,11 +194,11 @@ const Inschrijven: React.FunctionComponent = () => {
             </label>
             <div className="col-sm-9">
               <input
-                type="url"
+                type="text"
                 id="inputWebsite"
                 name="Website"
                 className="form-control"
-                placeholder="https://www.website.nl"
+                placeholder="www.website.nl"
                 aria-describedby="websiteHelp"
               />
               <div className="invalid-feedback">
@@ -406,7 +363,7 @@ const Inschrijven: React.FunctionComponent = () => {
               type="file"
               id="formFile"
               name="fotos[]"
-              accept="image/*"
+              accept="image/*, .pdf, .doc"
               aria-label="Bijlagen toevoegen"
               aria-describedby="formFileInstruction"
               multiple
@@ -416,8 +373,20 @@ const Inschrijven: React.FunctionComponent = () => {
             </small>
           </div>
         </fieldset>
-        <button type="submit" className="btn btn-primary" disabled={succes}>
+        <button
+          type="submit"
+          className="btn btn-primary d-flex align-content-center"
+          disabled={succes}
+        >
           Inschrijven!
+          {loading && (
+            <div
+              className="spinner-border text-success fs-4 ms-2"
+              role="status"
+            >
+              <span className="visually-hidden">Loading...</span>
+            </div>
+          )}
         </button>
       </form>
       <div className="svg-container">

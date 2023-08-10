@@ -35,4 +35,3 @@ const DeFrissePitch: React.FunctionComponent = () => {
 };
 
 export default DeFrissePitch;
-//            <a href="mailto: willy@stadslabzeist.nl">willy@stadslabzeist.nl</a>
