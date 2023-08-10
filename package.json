@@ -15,7 +15,7 @@
     "check": "npm run prettier && npm run eslint",
     "check:fix": "npm run prettier:fix && npm run eslint:fix",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages"
+    "deploy": "echo frissepitch.nl > ./dist/CNAME && gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
