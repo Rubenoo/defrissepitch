@@ -104,18 +104,15 @@ const Inschrijven: React.FunctionComponent = () => {
           </div>
 
           <div className="mb-lg-3 mb-1 row">
-            <label
-              htmlFor="inputContactpersoon"
-              className="col-sm-3 col-form-label"
-            >
+            <label htmlFor="name" className="col-sm-3 col-form-label">
               Contactpersoon
             </label>
             <div className="col-sm-9">
               <input
                 type="text"
-                id="inputContactpersoon"
+                id="name"
                 required
-                name="Contactpersoon"
+                name="name"
                 className="form-control"
                 placeholder="Naam"
                 aria-describedby="contactpersoonHelp"

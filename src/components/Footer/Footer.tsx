@@ -1,4 +1,6 @@
 import "./styles.scss";
+import InstagramIcon from "../../components/SocialIcons/InstagramIcon.tsx";
+import FacebookIcon from "../../components/SocialIcons/FacebookIcon.tsx";
 
 const Footer: React.FunctionComponent = () => {
   return (
@@ -21,18 +23,10 @@ const Footer: React.FunctionComponent = () => {
           <p>
             Volg onze socials voor alle ins en outs en updates over de Frisse
             Pitch en de Frisse Pitch Night op 10 oktober in het Torenlaan
-            Theater{" "}
-            <a target="_blank" href="https://www.instagram.com/stadslabzeist">
-              @stadslabzeist
-            </a>
-            en{" "}
-            <a
-              target="_blank"
-              href="https://www.instagram.com/samenduurzaamzeist"
-            >
-              @samenduurzaamzeist
-            </a>
+            Theater.
           </p>
+          <InstagramIcon />
+          <FacebookIcon />
           <h4>contact</h4>
           <address className="d-flex flex-column">
             <a href="mailto: idee@frissepitch.nl">idee@frissepitch.nl</a>
