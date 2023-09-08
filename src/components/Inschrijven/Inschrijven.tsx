@@ -222,7 +222,7 @@ const Inschrijven: React.FunctionComponent = () => {
               placeholder="Mijn idee..."
               aria-describedby="input1Help"
               aria-label="Vraag 1"
-              maxLength={300}
+              maxLength={1500}
             ></textarea>
             <small id="input1LengthHelp" className="form-text">
               (max 300 woorden)
@@ -240,7 +240,7 @@ const Inschrijven: React.FunctionComponent = () => {
               rows={3}
               aria-describedby="input2Help"
               aria-label="Vraag 2"
-              maxLength={300}
+              maxLength={1500}
             ></textarea>
           </div>
 
@@ -255,7 +255,7 @@ const Inschrijven: React.FunctionComponent = () => {
               rows={3}
               aria-describedby="input3Help"
               aria-label="Vraag 3"
-              maxLength={300}
+              maxLength={1500}
             ></textarea>
           </div>
 
@@ -271,7 +271,7 @@ const Inschrijven: React.FunctionComponent = () => {
               name="4. Wie zijn je eventuele samenwerkings-partners en de taakverdeling"
               aria-describedby="input4Help"
               aria-label="Vraag 4"
-              maxLength={300}
+              maxLength={1500}
             ></textarea>
           </div>
 
@@ -291,7 +291,7 @@ const Inschrijven: React.FunctionComponent = () => {
               name="5. Geef een globaal overzicht van de planning voor de realisatie van je idee"
               aria-describedby="input5Help"
               aria-label="Vraag 5"
-              maxLength={300}
+              maxLength={1500}
             ></textarea>
           </div>
 
@@ -306,7 +306,7 @@ const Inschrijven: React.FunctionComponent = () => {
               name="6. Waarom is jouw idee een Frisse Pitch idee (zie criteria)?"
               aria-describedby="input6Help"
               aria-label="Vraag 6"
-              maxLength={300}
+              maxLength={1500}
             ></textarea>
           </div>
 
@@ -327,7 +327,7 @@ const Inschrijven: React.FunctionComponent = () => {
               name="7. Geef kort aan wat de verwachte uitgaven zijn voor de belangrijkste kostenposten"
               aria-describedby="input7Help"
               aria-label="Vraag 7"
-              maxLength={300}
+              maxLength={1500}
             ></textarea>
           </div>
 
@@ -346,7 +346,7 @@ const Inschrijven: React.FunctionComponent = () => {
               name="8. Hoe ga je de €1.000 gebruiken?"
               aria-describedby="input8Help"
               aria-label="Vraag 8"
-              maxLength={300}
+              maxLength={1500}
             ></textarea>
           </div>
 
