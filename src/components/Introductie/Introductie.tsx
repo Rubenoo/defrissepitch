@@ -16,13 +16,15 @@ const Introductie: React.FunctionComponent = () => {
 
       <div>
         <div className="card">
-          <h2>wild idee?</h2>
+          <h2>Frisse Pitch Night</h2>
           <p>
-            Pitch jouw idee om Zeist nog leuker, socialer en duurzamer te maken
-            en maak kans op €1.000 cash om je idee uit te voeren!
+            Wil je weten wie er €1.000 gaat winnen? <br />
+            <br />
+            Kom dan naar de Frisse Pitch Night op 10 oktober in het Torenlaan
+            Theater om 19.30 uur.
           </p>
           <a className="btn" href="#inschrijven">
-            Inschrijven!
+            Aanmelden!
           </a>
         </div>
       </div>
