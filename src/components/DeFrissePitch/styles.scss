@@ -3,9 +3,17 @@ h3 {
   font-size: 3em;
   margin-block: 4em 0.5em;
   @media (max-width: 992px) {
-    grid-template-columns: 1fr;
     margin-block: 1em 0.5em;
     font-size: 2em;
+  }
+}
+
+h4 {
+  color: var(--donker-groen);
+  font-size: 2em;
+  margin-block: 1em 0.5em;
+  @media (max-width: 992px) {
+    font-size: 1.4em;
   }
 }
 
@@ -22,5 +30,20 @@ h3 {
   }
   &:last-of-type {
     margin-bottom: 0;
+  }
+  &-list-container {
+    text-align: start;
+  }
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0.5em;
+    text-align: end;
+    p {
+      margin-block-end: 0;
+    }
+    > :nth-child(even) {
+      text-align: start;
+    }
   }
 }
