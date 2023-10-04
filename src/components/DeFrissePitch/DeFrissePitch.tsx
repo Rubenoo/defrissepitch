@@ -85,7 +85,7 @@ const DeFrissePitch: React.FunctionComponent = () => {
       <p className="pitch">
         De jury bestaat uit: <b>Hamta Maftun</b> (Samen Duurzaam Zeist),{" "}
         <b>Michael van Dolder</b> (Biga Groep), <b>Bo Hendriksen</b> (Gemeente
-        Zeist) en <b>Najima Tahouna</b> (Krachtvrouwen Zeist).
+        Zeist) en <b>Najima Tihouna</b> (Krachtvrouwen Zeist).
       </p>
       <p className="pitch">
         Wil jij dat jouw favoriet de publieksprijs van <b>€1.000</b> wint? Kom
