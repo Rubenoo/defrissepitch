@@ -32,14 +32,14 @@ const Inschrijven: React.FunctionComponent = () => {
           }
           if (!response.ok)
             toast.error(
-              "Oeps er is iets fout gegaan, neem contact op met wijzijn@stadslabzeist.nl!",
+              "Oeps er is iets fout gegaan, neem contact op met idee@frissepitch.nl!",
             );
           return response.json();
         })
         .then((data) => console.log(data))
         .catch((error) => {
           toast.error(
-            "Oeps er is iets fout gegaan, neem contact op met wijzijn@stadslabzeist.nl!",
+            "Oeps er is iets fout gegaan, neem contact op met idee@frissepitch.nl!",
           );
           console.log(error);
         });

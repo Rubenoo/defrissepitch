@@ -18,10 +18,11 @@ const Introductie: React.FunctionComponent = () => {
         <div className="card">
           <h2>Frisse Pitch Night</h2>
           <p>
-            Wil je weten wie er €1.000 gaat winnen? <br />
-            <br />
-            Kom dan naar de Frisse Pitch Night op 10 oktober in het Torenlaan
-            Theater om 19.30 uur.
+            Heb jij een wild, innovatief en te gek idee om van Zeist een
+            inclusieve, creatieve, toekomstbestendige en planet proof gemeente
+            te maken? Meld je idee dan vóór 5 september aan en maak kans om
+            tijdens de Frisse Pitch Night op 9 oktober €1.000 te winnen om je
+            plan te realiseren.
           </p>
           <a className="btn" href="#inschrijven">
             Aanmelden!

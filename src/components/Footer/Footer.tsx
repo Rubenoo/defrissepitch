@@ -22,8 +22,21 @@ const Footer: React.FunctionComponent = () => {
           <h4>op de hoogte blijven?</h4>
           <p>
             Volg onze socials voor alle ins en outs en updates over de Frisse
-            Pitch en de Frisse Pitch Night op 10 oktober in het Torenlaan
-            Theater.
+            Pitch en de Frisse Pitch Night op 9 oktober in Lab Lou{" "}
+            <a target="_blank" href="https://www.instagram.com/stadslabzeist">
+              @stadslabzeist
+            </a>
+            ,{" "}
+            <a
+              target="_blank"
+              href="https://www.instagram.com/samenduurzaamzeist"
+            >
+              @samenduurzaamzeist
+            </a>
+            en{" "}
+            <a target="_blank" href="https://www.instagram.com/bijlablou">
+              @bijlablou
+            </a>
           </p>
           <InstagramIcon />
           <FacebookIcon />
@@ -35,13 +48,13 @@ const Footer: React.FunctionComponent = () => {
         <div className="col-lg-4 col-sm-12">
           <h4>het Frisse Pitch team</h4>
           <p>
-            <strong>Willy Douma</strong> - Stadslab Zeist
+            <strong>Marloes van Haaren</strong> - Stadslab Zeist
             <br />
             <strong>Merel de Jong</strong> - Stadslab Zeist
             <br />
             <strong>Margreet van der Pijl</strong> - Samen Duurzaam Zeist
             <br />
-            <strong>Fons Pennings</strong> - Samen Duurzaam Zeist
+            <strong>Saskia Littooij</strong> - Samen Duurzaam Zeist
             <br />
             <br />
             Gemeente Zeist ondersteunt de Frisse Pitch inhoudelijk en

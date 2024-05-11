@@ -1,10 +1,10 @@
 import "./styles.scss";
 import Divider from "../Divider/Divider.tsx";
 
-const DeFrissePitch: React.FunctionComponent = () => {
+const DeFrissePitchWinnaars: React.FunctionComponent = () => {
   return (
     <section className="align-items-center">
-      <h3>De Frisse Pitch Night</h3>
+      <h3>De Frisse Pitch 2024</h3>
       <p className="pitch">
         Op <b>10 oktober</b> is het zo ver! Vanaf <b>20.00 uur</b> zullen 7
         Frisse Pitchers hun ideeën pitchen voor onze deskundige jury. De ideeën
@@ -97,4 +97,4 @@ const DeFrissePitch: React.FunctionComponent = () => {
   );
 };
 
-export default DeFrissePitch;
+export default DeFrissePitchWinnaars;

@@ -7,7 +7,7 @@ const IdeeCriteria: React.FC = () => {
     <section className="container text-start">
       <div className="overlay-svg overlay-svg--recycle-stekker svg-uitgangspunten" />
 
-      <h4>Wanneer is jouw idee een Frisse Pitch idee (de criteria)?</h4>
+      <h3>Wanneer is jouw idee een Frisse Pitch idee (de criteria)?</h3>
       <div className="row">
         <div className="col-lg-9 col-12">
           <ul>
@@ -48,7 +48,7 @@ const IdeeCriteria: React.FC = () => {
               het concept.
             </li>
             <li>
-              Jouw idee start in 2023 en is uitvoerbaar binnen budget en één
+              Jouw idee start in 2024 en is uitvoerbaar binnen budget en één
               jaar tijd.
             </li>
           </ul>

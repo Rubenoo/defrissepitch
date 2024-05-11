@@ -63,7 +63,8 @@
   ul {
     ::marker {
       color: var(--fris-groen);
-      font-size: 1em;
+      content: "➡ ";
+      font-size: 1.2em;
     }
     margin-block-end: 0;
     @media (max-width: 992px) {
