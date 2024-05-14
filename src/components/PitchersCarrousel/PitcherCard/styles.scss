@@ -1,0 +1,18 @@
+article.pitcher-card {
+  padding: 0.75em;
+
+  background-color: white;
+  text-align: start;
+  h4 {
+    color: var(--donker-groen);
+    margin: 0.25em;
+  }
+  p {
+    margin: 0.5em;
+
+    color: var(--donker-groen);
+  }
+  .card-image {
+    width: 100%;
+  }
+}

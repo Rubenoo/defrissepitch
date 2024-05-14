@@ -1,0 +1,32 @@
+.carousel-control-prev-icon {
+  background-image: url("/assets/svg/left-arrow.svg");
+  background-color: var(--fris-groen);
+  border-radius: 50%;
+  width: 5.5em;
+  height: 4em;
+  background-size: 60%; // This will make the background 10% larger than its original size
+  @media (max-width: 992px) {
+    width: 3em;
+    height: 2.25em;
+  }
+}
+.carousel-control-next-icon {
+  background-image: url("/assets/svg/left-arrow.svg");
+  background-color: var(--fris-groen);
+  border-radius: 50%;
+  width: 5.5em;
+  height: 4em;
+  background-size: 60%; // This will make the background 10% larger than its original size
+  transform: rotate(180deg); // This will flip the SVG to the right
+  @media (max-width: 992px) {
+    width: 3em;
+    height: 2.25em;
+  }
+}
+
+.card-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  gap: 2em;
+}
