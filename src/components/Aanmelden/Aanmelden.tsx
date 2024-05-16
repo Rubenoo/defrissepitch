@@ -60,7 +60,12 @@ const Aanmelden: React.FunctionComponent = () => {
         theme="colored"
       />
       <h1 className="inschrijven-titel">Aanmelden</h1>
-      <form onSubmit={handleSubmit} className="needs-validation" noValidate>
+      <form
+        onSubmit={handleSubmit}
+        className="needs-validation"
+        noValidate
+        id={"form"}
+      >
         <img
           className="svg-oog"
           src="/assets/svg/FP_sticker_RGB_oog.svg"

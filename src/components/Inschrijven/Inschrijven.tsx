@@ -65,6 +65,7 @@ const Inschrijven: React.FunctionComponent = () => {
         encType="multipart/form-data"
         className="needs-validation"
         noValidate
+        id={"form"}
       >
         <img
           className="svg-oog"
