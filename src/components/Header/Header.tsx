@@ -49,15 +49,6 @@ const Header: React.FunctionComponent = () => {
                   <button
                     className="nav-link"
                     data-bs-dismiss="offcanvas"
-                    onClick={handleClick("programma")}
-                  >
-                    Programma
-                  </button>
-                </li>
-                <li className="nav-item">
-                  <button
-                    className="nav-link"
-                    data-bs-dismiss="offcanvas"
                     onClick={handleClick("veelgesteldevragen")}
                   >
                     Veelgestelde vragen

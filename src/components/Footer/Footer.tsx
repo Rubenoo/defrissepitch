@@ -52,6 +52,8 @@ const Footer: React.FunctionComponent = () => {
             <br />
             <strong>Merel de Jong</strong> - Stadslab Zeist
             <br />
+            <strong>Emma Fijma</strong> - Stadslab Zeist
+            <br />
             <strong>Margreet van der Pijl</strong> - Samen Duurzaam Zeist
             <br />
             <strong>Saskia Littooij</strong> - Samen Duurzaam Zeist

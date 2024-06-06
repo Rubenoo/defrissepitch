@@ -16,7 +16,7 @@ const Introductie: React.FunctionComponent = () => {
 
       <div>
         <div className="card">
-          <h2>Frisse Pitch Night</h2>
+          <h2>Goed idee? Doe mee!</h2>
           <p>
             Heb jij een wild, innovatief en te gek idee om van Zeist een
             inclusieve, creatieve, toekomstbestendige en planet proof gemeente

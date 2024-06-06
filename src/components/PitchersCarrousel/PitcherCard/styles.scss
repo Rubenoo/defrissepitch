@@ -1,17 +1,26 @@
 article.pitcher-card {
   padding: 0.75em;
-
+  height: 100%;
   background-color: white;
   text-align: start;
+  display: flex; // Add this line
+  flex-direction: column; // Add this line
   h4 {
     color: var(--donker-groen);
     margin: 0.25em;
   }
-  p {
+  p,
+  a {
     margin: 0.5em;
+    margin-bottom: 0 !important;
 
     color: var(--donker-groen);
   }
+  a {
+    margin-top: auto;
+    align-self: end;
+  }
+
   .card-image {
     width: 100%;
   }

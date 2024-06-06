@@ -1,32 +1,29 @@
 [
   {
-    "titel": "Pitcher idee 1",
-    "beschrijving": "Beschijving tekst bla bla bla",
-    "afbeelding": "overzicht.jpg"
+    "titel": "Moving Toys",
+    "beschrijving": "Met Moving Toys maken ouders en kinderen bewegend speelgoed van restmaterialen. Upcycling ten top! Moving toys gaat plaatsvinden in de Week van Samen Duurzaam Doen.",
+    "afbeelding": "moving toys.jpg"
   },
   {
-    "titel": "Pitcher idee 2",
-    "beschrijving": "Beschijving tekst bla bla bla",
-    "afbeelding": "overzicht.jpg"
+    "titel": "Ommetje Dichterbij",
+    "beschrijving": "Ommetje Dichterbij helpt om in beweging te komen en je buur(t) te ontmoeten!",
+    "afbeelding": "ommetje.jpg"
   },
   {
-    "titel": "Pitcher idee 3",
-    "beschrijving": "Beschijving tekst bla bla bla",
-    "afbeelding": "overzicht.jpg"
+    "titel": "Austerlitz Afgekoppeld",
+    "beschrijving": "Challenge: kunnen we het regenwater van een heel dorp afkoppelen van het riool? Inmiddels doen al 120 huishoudens mee!",
+    "afbeelding": "afkoppelen.jpg"
   },
   {
-    "titel": "Pitcher idee 4",
-    "beschrijving": "Beschijving tekst bla bla bla",
-    "afbeelding": "overzicht.jpg"
+    "titel": "Duurzame Markt OVMZ",
+    "beschrijving": "Vernieuwend en betekenisvol onderwijs door de productie van de OVMZ Duurzame Markt in samenwerking met bedrijven en inwoners van Zeist.",
+    "afbeelding": "duurzame markt.jpg",
+    "link": "https://www.denieuwsbode.nl/lokaal/duurzaamheid/1038377/leerlingen-ovmz-maken-duurzaamheid-leuk-en-praktisch"
   },
   {
-    "titel": "Pitcher idee 5",
-    "beschrijving": "Beschijving tekst bla bla bla",
-    "afbeelding": "overzicht.jpg"
-  },
-  {
-    "titel": "Pitcher idee 6",
-    "beschrijving": "Beschijving tekst bla bla bla",
-    "afbeelding": "overzicht.jpg"
+    "titel": "Maakplaats Den Dolder",
+    "beschrijving": "Zelf doen! Jong en oud maken zelf dingen in De Maakplaats van Den Dolder!",
+    "afbeelding": "maakplaats.jpg",
+    "link": "https://werkwinkel.nl/maakplaats/"
   }
 ]

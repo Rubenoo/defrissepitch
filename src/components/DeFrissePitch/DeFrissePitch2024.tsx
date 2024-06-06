@@ -6,21 +6,13 @@ const DeFrissePitch: React.FunctionComponent = () => {
     <section className="align-items-center">
       <h3>De Frisse Pitch 2024</h3>
       <p className="pitch">
-        Samen Duurzaam Zeist en Stadslab Zeist gaan op zoek naar frisse,
-        duurzame, sociale en creatieve plannen voor Zeist! Daarom organiseren
-        wij op <b>9 oktober 2024</b> de Frisse Pitch waar je jouw idee kunt
-        pitchen. De <b>5 beste ideeën krijgen €1.000</b> om het ook echt te gaan
-        doen! Leuk toch?
+        Samen Duurzaam Zeist en Stadslab Zeist zijn op zoek naar frisse,
+        duurzame, sociale en creatieve plannen voor Zeist! Heb jij een leuk
+        idee? Meld je idee <b>vóór 5 september om 12.00 uur</b> bij ons aan!
       </p>
       <p className="pitch">
-        Dus heb jij een wild, innovatief en te gek idee om van Zeist een
-        inclusieve, creatieve, toekomstbestendige en planet proof gemeente te
-        maken? Dan zou het zomaar kunnen dat jij in de prijzen gaat vallen en
-        dat wij je gaan helpen om jouw plan te realiseren!
-      </p>
-      <p className="pitch">
-        Meld je idee <b>vóór 5 september om 12.00 uur</b> bij ons aan en wie
-        weet zien we je bij de Frisse Pitch Night op <b>9 oktober</b> in Lab Lou
+        Wie weet krijg jij de kans om tijdens de Frisse Pitch Night op{" "}
+        <b>9 oktober</b> in Lab Lou jouw plan te pitchen.
       </p>
       <p className="pitch">
         Wil je voor die tijd nog even sparren met ons? Dat kan! Stuur een mail

@@ -30,3 +30,24 @@
   grid-auto-flow: row;
   gap: 2em;
 }
+.react-multi-carousel-item {
+  &::marker {
+    content: unset;
+  }
+}
+.carousel-control-next {
+  justify-content: end;
+  right: -5rem;
+  top: 25%;
+  @media (max-width: 992px) {
+    right: -0.5rem;
+  }
+}
+.carousel-control-prev {
+  justify-content: start;
+  left: -5rem;
+  top: 25%;
+  @media (max-width: 992px) {
+    left: -0.5rem;
+  }
+}

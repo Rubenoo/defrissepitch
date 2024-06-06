@@ -1,83 +1,62 @@
 import "./styles.scss";
 import PitchersJSON from "./pitchers.json";
 import PitcherCard from "./PitcherCard/PitcherCard.tsx";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 const PitchersCarrousel: React.FunctionComponent = () => {
   const PitchersArray = PitchersJSON as Array<PitcherCard>;
 
-  const groups: Array<Array<JSX.Element>> = [];
-  PitchersArray.forEach((pitch, index) => {
-    if (index % 3 === 0) {
-      groups.push([<PitcherCard key={index} {...pitch} />]);
-    } else {
-      groups[groups.length - 1].push(<PitcherCard key={index} {...pitch} />);
-    }
-  });
-
-  const pitchersCards = groups.map((group, index) => (
-    <div
-      key={index}
-      className={`carousel-item ${index === 0 && "active"}`}
-      data-bs-interval="10000"
-    >
-      <div className={"card-group"}>{group}</div>
-    </div>
-  ));
-
-  const pitchersCardsMobile = PitchersArray.map((pitch, index) => (
-    <div
-      key={index}
-      className={`carousel-item ${index === 0 && "active"}`}
-      data-bs-interval="10000"
-    >
-      <PitcherCard key={index} {...pitch} />
-    </div>
-  ));
-
   return (
-    <>
-      <div
-        id="pitcherscarrousel"
-        className="carousel slide d-lg-block d-none"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">{pitchersCards}</div>
-        <CarrouselControls id={"#pitcherscarrousel"} />
-      </div>
-      <div
-        id="pitcherscarrousel-mobile"
-        className="carousel slide d-block d-lg-none"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">{pitchersCardsMobile}</div>
-        <CarrouselControls id={"#pitcherscarrousel-mobile"} />
-      </div>
-    </>
+    <Carousel
+      infinite
+      responsive={responsive}
+      autoPlay
+      autoPlaySpeed={8000}
+      arrows={false}
+      renderButtonGroupOutside
+      customButtonGroup={<CarrouselControls />}
+      itemClass="px-3"
+    >
+      {PitchersArray.map((pitch, index) => (
+        <PitcherCard key={index} {...pitch} />
+      ))}
+    </Carousel>
   );
 };
 
 export default PitchersCarrousel;
 
-type CarrouselControls = { id: string };
-const CarrouselControls: React.FC<CarrouselControls> = ({ id }) => (
-  <>
-    <button
-      className="carousel-control-prev"
-      type="button"
-      data-bs-target={id}
-      data-bs-slide="prev"
-    >
-      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span className="visually-hidden">Vorige</span>
-    </button>
-    <button
-      className="carousel-control-next"
-      type="button"
-      data-bs-target={id}
-      data-bs-slide="next"
-    >
-      <span className="carousel-control-next-icon" aria-hidden="true"></span>
-      <span className="visually-hidden">Volgende</span>
-    </button>
-  </>
-);
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+const CarrouselControls: React.FC = ({ next, previous }) => {
+  return (
+    <>
+      {/* eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-return */}
+      <button className="carousel-control-prev" onClick={() => previous()}>
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Vorige</span>
+      </button>
+      {/* eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-return */}
+      <button className="carousel-control-next" onClick={() => next()}>
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Volgende</span>
+      </button>
+    </>
+  );
+};
