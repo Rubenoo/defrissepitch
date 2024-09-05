@@ -28,7 +28,7 @@ const Aanmelden: React.FunctionComponent = () => {
           if (response.ok) {
             setSucces(true);
             setLoading(false);
-            toast.success("Wij hebben je aangemeld!");
+            toast.success("We hebben je aangemeld!");
           }
           if (!response.ok)
             toast.error(
