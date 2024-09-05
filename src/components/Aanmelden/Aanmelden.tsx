@@ -20,7 +20,7 @@ const Aanmelden: React.FunctionComponent = () => {
       setLoading(true);
       const formData = new FormData(event.currentTarget);
       // When checking the file input reference, it's good practice to check if current and files exist:
-      fetch("https://usebasin.com/f/ebad48967ee2", {
+      fetch("https://usebasin.com/f/601eebd19742", {
         method: "POST",
         body: formData,
       })
@@ -104,7 +104,7 @@ const Aanmelden: React.FunctionComponent = () => {
 
           <div className="mb-lg-3 mb-1 row">
             <label htmlFor="email_address" className="col-sm-3 col-form-label">
-              Emailadres
+              Email
             </label>
             <div className="col-sm-9">
               <input
@@ -115,7 +115,7 @@ const Aanmelden: React.FunctionComponent = () => {
                 className="form-control"
                 placeholder="email@adres.nl"
                 aria-describedby="emailHelp"
-              />{" "}
+              />
               <div className="invalid-feedback">
                 Geef een valide emailadres op.
               </div>

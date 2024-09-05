@@ -1,17 +1,15 @@
-import Introductie from "../Introductie/Introductie.tsx";
 import IdeeCriteria from "../IdeeCriteria/IdeeCriteria.tsx";
 import VeelgesteldeVragen from "../VeelgesteldeVragen/VeelgesteldeVragen.tsx";
-import Inschrijven from "../Inschrijven/Inschrijven.tsx";
-import DeFrissePitch2024 from "../DeFrissePitch/DeFrissePitch2024.tsx";
-import WieGingenJeVoor from "../WieGingenJeVoor/WieGingenJeVoor.tsx";
+import DeFrissePitchNight2024 from "../DeFrissePitch/DeFrissePitchNight2024.tsx";
+import IntroductieFrissePitchNight2024 from "../Introductie/IntroductieFrissePitchNight2024.tsx";
+import Aanmelden from "../Aanmelden/Aanmelden.tsx";
 
 const Main: React.FunctionComponent = () => {
   return (
     <main>
-      <Introductie />
-      <DeFrissePitch2024 />
-      <WieGingenJeVoor />
-      <Inschrijven />
+      <IntroductieFrissePitchNight2024 />
+      <DeFrissePitchNight2024 />
+      <Aanmelden />
       <IdeeCriteria />
       <VeelgesteldeVragen />
     </main>
