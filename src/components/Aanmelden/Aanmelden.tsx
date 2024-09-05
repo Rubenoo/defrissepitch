@@ -59,7 +59,7 @@ const Aanmelden: React.FunctionComponent = () => {
         pauseOnHover
         theme="colored"
       />
-      <h1 className="inschrijven-titel">Aanmelden</h1>
+      <h1 className="inschrijven-titel">Tickets Reserveren</h1>
       <form
         onSubmit={handleSubmit}
         className="needs-validation"
@@ -134,14 +134,14 @@ const Aanmelden: React.FunctionComponent = () => {
                 type="number"
                 id="inputAantalKaarten"
                 name="AantalKaarten"
-                max={4}
+                max={8}
                 min={1}
                 className="form-control"
                 placeholder="0"
                 aria-describedby="aantalkaartenHelp"
               />
               <div className="invalid-feedback">
-                Geef een valide aantal kaarten op, je kan maximaal 4 kaarten
+                Geef een valide aantal kaarten op, je kan maximaal 8 kaarten
                 kiezen per aanvraag.
               </div>
             </div>

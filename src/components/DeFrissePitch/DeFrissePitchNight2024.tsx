@@ -10,7 +10,7 @@ const DeFrissePitchNight2024: React.FunctionComponent = () => {
         Pitch Night op <b>9 oktober in Lab Lou om 19.30 uur</b>. Programma en
         meer info volgen snel!
       </p>
-      <p className="pitch">Aanmelden kan wel al vanaf nu!</p>
+      <p className="pitch">Reserveer alvast je gratis tickets!</p>
       <Divider />
     </section>
   );
