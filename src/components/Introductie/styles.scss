@@ -64,6 +64,7 @@ section.introductie {
   }
 
   &::before {
+    z-index: 999;
     content: "";
     position: absolute;
     bottom: -160px;
