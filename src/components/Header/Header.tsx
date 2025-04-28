@@ -11,7 +11,7 @@ const Header: React.FunctionComponent = () => {
         if (targetElement) {
           targetElement.scrollIntoView({ behavior: "smooth" });
         }
-      }, 500);
+      }, 100);
     };
   return (
     <header>
@@ -61,6 +61,15 @@ const Header: React.FunctionComponent = () => {
                     onClick={handleClick("footer")}
                   >
                     Contact
+                  </button>
+                </li>
+                <li className="nav-item">
+                  <button
+                    className="nav-link"
+                    data-bs-dismiss="offcanvas"
+                    onClick={handleClick("inschrijven")}
+                  >
+                    Aanmelden
                   </button>
                 </li>
               </ul>

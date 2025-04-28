@@ -8,7 +8,7 @@ ahoy.configure({
   urlPrefix: "",
   visitsUrl: "https://usebasin.com/ahoy/visits",
   eventsUrl: "https://usebasin.com/ahoy/events",
-  page: "601eebd19742" /* Use your form id here */,
+  page: "b970f7ab9356" /* Use your form id here */,
   platform: "Web",
   useBeacon: true,
   startOnReady: true,

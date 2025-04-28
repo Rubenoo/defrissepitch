@@ -7,9 +7,8 @@ const WinnaarsFrissePitch2024: React.FunctionComponent = () => {
       <div className="wiegingenjevoor">
         <h3>Winnaars van de Frisse Pitch Night 2024</h3>
         <p className={"pitch"}>
-          Deze <b>5 geweldige initiatieven</b> hebben deze editie een geldbedrag
-          van <b>1000 euro</b> gewonnen om hun planet proof idee voor Zeist te
-          gaan realiseren.
+          Deze geweldige initiatieven gingen je voor en hebben <b>€1.000</b>{" "}
+          gewonnen om hun planet proof idee voor Zeist te gaan realiseren.
         </p>
         <PitchersCarrousel />
       </div>

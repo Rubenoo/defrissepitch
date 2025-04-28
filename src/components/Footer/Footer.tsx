@@ -22,16 +22,16 @@ const Footer: React.FunctionComponent = () => {
           <h4>op de hoogte blijven?</h4>
           <p>
             Volg onze socials voor alle ins en outs en updates over de Frisse
-            Pitch en de Frisse Pitch Night op 9 oktober in Lab Lou{" "}
-            <a target="_blank" href="https://www.instagram.com/stadslabzeist">
-              @stadslabzeist
-            </a>
-            ,{" "}
+            Pitch en de Frisse Pitch Night op 8 oktober in Lab Lou{" "}
             <a
               target="_blank"
               href="https://www.instagram.com/samenduurzaamzeist"
             >
               @samenduurzaamzeist
+            </a>
+            ,{" "}
+            <a target="_blank" href="https://www.instagram.com/stadslabzeist">
+              @stadslabzeist
             </a>
             en{" "}
             <a target="_blank" href="https://www.instagram.com/bijlablou">
@@ -48,19 +48,20 @@ const Footer: React.FunctionComponent = () => {
         <div className="col-lg-4 col-sm-12">
           <h4>het Frisse Pitch team</h4>
           <p>
-            <strong>Marloes van Haaren</strong> - Stadslab Zeist
+            <strong>Sofie van Essen</strong> - Stadslab Zeist
             <br />
             <strong>Merel de Jong</strong> - Stadslab Zeist
             <br />
             <strong>Emma Fijma</strong> - Stadslab Zeist
             <br />
-            <strong>Margreet van der Pijl</strong> - Samen Duurzaam Zeist
-            <br />
             <strong>Saskia Littooij</strong> - Samen Duurzaam Zeist
             <br />
             <br />
-            Gemeente Zeist ondersteunt de Frisse Pitch inhoudelijk en
-            financieel.
+            De Frisse Pitch Night is een initiatief van Samen Duurzaam Zeist en
+            wordt uitgevoerd door Stadslab Zeist. Gemeente Zeist ondersteunt de
+            Frisse Pitch inhoudelijk en financieel. De Frisse Pitch Night op 8
+            oktober is onderdeel van de Week van Samen Duurzaam Doen die van 4
+            tot en met 12 oktober 2025 in gemeente Zeist plaatsvindt.
           </p>
         </div>
       </div>

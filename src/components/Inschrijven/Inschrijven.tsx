@@ -20,7 +20,7 @@ const Inschrijven: React.FunctionComponent = () => {
       setLoading(true);
       const formData = new FormData(event.currentTarget);
       // When checking the file input reference, it's good practice to check if current and files exist:
-      fetch("https://usebasin.com/f/61eb7f6612c4", {
+      fetch("https://usebasin.com/f/b970f7ab9356", {
         method: "POST",
         body: formData,
       })

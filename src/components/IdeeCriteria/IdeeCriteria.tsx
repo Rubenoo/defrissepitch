@@ -13,13 +13,14 @@ const IdeeCriteria: React.FC = () => {
           <ul>
             <li>
               Het idee maakt Zeist toekomstbestendig. Het helpt ons op weg naar
-              een planetproof samenleving; het idee heeft te maken met klimaat,
+              een planet-proof samenleving; het idee heeft te maken met klimaat,
               circulaire economie, natuur, sociale cohesie of bijvoorbeeld een
               gezondere leefomgeving.
             </li>
             <li>
-              Het plan wordt uitgevoerd in de gemeente Zeist; Het gaat tenslotte
-              over onze plaats.
+              Het plan wordt uitgevoerd in één van de vijf kernen van de
+              gemeente Zeist; Zeist, Den Dolder, Austerlitz, Huis ter Heide of
+              Bosch en Duin.
             </li>
             <li>
               Het moet Zeistenaren aanspreken. Klein of groot. Ze moeten het
@@ -48,7 +49,7 @@ const IdeeCriteria: React.FC = () => {
               het concept.
             </li>
             <li>
-              Jouw idee start in 2024 en is uitvoerbaar binnen budget en één
+              Jouw idee start in 2025 en is uitvoerbaar binnen budget en één
               jaar tijd.
             </li>
           </ul>

@@ -16,14 +16,15 @@ const IntroductieFrissePitch2025: React.FunctionComponent = () => {
 
       <div>
         <div className="card">
-          <h2>FrissePitch 2025</h2>
+          <h2>Fris idee? Doe mee!</h2>
           <p>
-            Hallo Frisse Pitcher! Vanaf april 2025 kan je meedoen aan een nieuwe
-            editie van de Frisse Pitch.
-            <br />
-            <br />
-            Hieronder zie je de winnaars van de Frisse Pitch 2024!
+            Heb jij een wild, innovatief en te gek idee om van Zeist een
+            inclusieve, creatieve, toekomstbestendige en planet proof gemeente
+            te maken?
           </p>
+          <a className="btn" href="#inschrijven">
+            Aanmelden!
+          </a>
         </div>
       </div>
     </section>

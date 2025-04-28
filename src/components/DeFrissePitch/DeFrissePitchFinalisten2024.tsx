@@ -1,7 +1,7 @@
 import "./styles.scss";
 import Divider from "../Divider/Divider.tsx";
 
-const DeFrissePitchWinnaars: React.FunctionComponent = () => {
+const DeFrissePitchFinalisten2024: React.FunctionComponent = () => {
   return (
     <section className="align-items-center">
       <h3>De Frisse Pitch 2024</h3>
@@ -97,4 +97,4 @@ const DeFrissePitchWinnaars: React.FunctionComponent = () => {
   );
 };
 
-export default DeFrissePitchWinnaars;
+export default DeFrissePitchFinalisten2024;

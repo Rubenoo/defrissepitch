@@ -16,7 +16,7 @@ const VeelgesteldeVragen: React.FC = () => {
     >
       <div className="overlay-svg overlay-svg--recycle-stekker--vragen svg-vragen" />
 
-      <h3 className="text-center mt-0">Veelgestelde vragen</h3>
+      <h3 className="text-center">Veelgestelde vragen</h3>
       {VragenLijstJSON.map((vragenLijst: VragenLijst, index) => {
         return (
           <React.Fragment key={index}>
