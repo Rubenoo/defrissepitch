@@ -1,6 +1,7 @@
 import "./styles.scss";
 import InstagramIcon from "../../components/SocialIcons/InstagramIcon.tsx";
 import FacebookIcon from "../../components/SocialIcons/FacebookIcon.tsx";
+import LogoBar from "./LogoBar.tsx";
 
 const Footer: React.FunctionComponent = () => {
   return (
@@ -65,6 +66,7 @@ const Footer: React.FunctionComponent = () => {
           </p>
         </div>
       </div>
+      <LogoBar />
     </footer>
   );
 };

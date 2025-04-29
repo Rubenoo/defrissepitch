@@ -19,7 +19,7 @@ const IntroductieFrissePitch2025: React.FunctionComponent = () => {
           <h2>Fris idee? Doe mee!</h2>
           <p>
             Heb jij een wild, innovatief en te gek idee om van Zeist een
-            inclusieve, creatieve, toekomstbestendige en planet proof gemeente
+            inclusieve, creatieve, toekomstbestendige en planet-proof gemeente
             te maken?
           </p>
           <a className="btn" href="#inschrijven">

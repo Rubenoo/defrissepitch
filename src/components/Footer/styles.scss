@@ -71,3 +71,20 @@ footer {
   align-items: end;
   justify-content: start;
 }
+
+.logoblock {
+  height: 120px;
+  width: 120px;
+  @media (max-width: 992px) {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.logolong {
+  height: 80px;
+  @media (max-width: 992px) {
+    height: 50px;
+
+  }
+}
