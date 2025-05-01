@@ -14,7 +14,7 @@ const BelangrijkeData: React.FC = () => {
           <b>Deadline voor indienen idee</b> 7 september 12.00 uur
         </li>
         <li>
-          <b>Uitslag</b> 7 september 12.00 uur
+          <b>Uitslag</b> 10 september 12.00 uur
         </li>
         <li>
           <b>Fotoshoot publiekscampagne Frisse Pitch Night</b> 11 september
