@@ -185,25 +185,6 @@ const Inschrijven: React.FunctionComponent = () => {
               </div>
             </div>
           </div>
-
-          <div className="mb-lg-5 mb-3 row">
-            <label htmlFor="inputWebsite" className="col-sm-3 col-form-label">
-              Website
-            </label>
-            <div className="col-sm-9">
-              <input
-                type="text"
-                id="inputWebsite"
-                name="Website"
-                className="form-control"
-                placeholder="www.website.nl"
-                aria-describedby="websiteHelp"
-              />
-              <div className="invalid-feedback">
-                Geef een valide website op.
-              </div>
-            </div>
-          </div>
         </fieldset>
         <fieldset disabled={succes}>
           <legend>Jouw frisse idee</legend>
