@@ -43,4 +43,3 @@ const VeelgesteldeVragen: React.FC = () => {
   );
 };
 export default VeelgesteldeVragen;
-//Create an accordion

@@ -14,7 +14,8 @@ const IdeeCriteria: React.FC = () => {
             <li>
               Het idee maakt Zeist toekomstbestendig. Het helpt ons op weg naar
               een planet-proof samenleving; het idee heeft te maken met klimaat,
-              circulaire economie, natuur, sociale cohesie of bijvoorbeeld een
+              circulaire economie, natuur, sociale verbinding,
+              armoedebestrijding, volksgezondheid, inclusie of bijvoorbeeld een
               gezondere leefomgeving.
             </li>
             <li>
