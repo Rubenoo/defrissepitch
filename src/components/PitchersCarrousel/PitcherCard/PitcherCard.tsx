@@ -21,7 +21,7 @@ const PitcherCard: React.FunctionComponent<PitcherCard> = ({
       <p>{beschrijving}</p>
       {link && (
         <a href={link} target="_blank">
-          Lees meer
+          Hoe gaat het nu?
         </a>
       )}
     </article>
