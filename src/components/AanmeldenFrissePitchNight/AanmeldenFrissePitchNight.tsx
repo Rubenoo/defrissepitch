@@ -3,7 +3,7 @@ import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const Aanmelden: React.FunctionComponent = () => {
+const AanmeldenFrissePitchNight: React.FunctionComponent = () => {
   const [succes, setSucces] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -20,7 +20,7 @@ const Aanmelden: React.FunctionComponent = () => {
       setLoading(true);
       const formData = new FormData(event.currentTarget);
       // When checking the file input reference, it's good practice to check if current and files exist:
-      fetch("https://usebasin.com/f/601eebd19742", {
+      fetch("https://usebasin.com/f/2150a1a0904b", {
         method: "POST",
         body: formData,
       })
@@ -175,4 +175,4 @@ const Aanmelden: React.FunctionComponent = () => {
   );
 };
 
-export default Aanmelden;
+export default AanmeldenFrissePitchNight;

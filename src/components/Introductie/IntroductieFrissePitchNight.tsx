@@ -1,6 +1,6 @@
 import "./styles.scss";
 
-const IntroductieFrissePitchNight2024: React.FunctionComponent = () => {
+const IntroductieFrissePitchNight: React.FunctionComponent = () => {
   return (
     <section className="introductie">
       <div className="achtergrond-licht-groen">
@@ -23,7 +23,7 @@ const IntroductieFrissePitchNight2024: React.FunctionComponent = () => {
             jaar weer een kans!
             <br />
             <br />
-            Benieuwd wie er gaan pitchen? Kom naar de Frisse Pitch Night op 9
+            Benieuwd wie er gaan pitchen? Kom naar de Frisse Pitch Night op 8
             oktober in Lab Lou.
           </p>
           <a className="btn" href="#inschrijven">
@@ -35,4 +35,4 @@ const IntroductieFrissePitchNight2024: React.FunctionComponent = () => {
   );
 };
 
-export default IntroductieFrissePitchNight2024;
+export default IntroductieFrissePitchNight;
