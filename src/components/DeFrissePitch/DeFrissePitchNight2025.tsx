@@ -53,13 +53,7 @@ const DeFrissePitchNight2024: React.FunctionComponent = () => {
       <p className="pitch">
         De avond wordt gepresenteerd door <b>Daan Warnas</b>.
       </p>
-      <p className="pitch">
-        Tijdens de inloop, in de pauze en na afloop is er ruimte om het{" "}
-        <b>Team Duurzaamheid</b> van de gemeente Zeist te ontmoeten en een leuke
-        pre-loved outfit te scoren bij de kleding swap. Proef ook van de lekker
-        toekomstbestendige hapjes en geniet van de muzikale deuntjes van{" "}
-        <b>Tommy the Sound.</b>
-      </p>
+
       <p className="pitch">
         Wil jij dat jouw favoriet de publieksprijs van €1.000 wint? Kom dan ook
         op 8 oktober en breng jouw stem uit. Reserveer alvast je gratis tickets
