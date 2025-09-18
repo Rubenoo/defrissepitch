@@ -1,5 +1,5 @@
 import "./styles.scss";
-import PitchersJSON from "./winnaars2024.json";
+import PitchersJSON from "./deelnemers2025.json";
 import PitcherCard from "./PitcherCard/PitcherCard.tsx";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";

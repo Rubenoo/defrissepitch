@@ -7,8 +7,12 @@ article.pitcher-card {
   flex-direction: column; // Add this line
   h4 {
     color: var(--donker-groen);
-    margin: 0.25em;
+    margin: 0.25em 0.25em 0.125em 0.25em; // Reduce bottom margin
     font-size: 1.5em;
+  }
+  h5 {
+    color: var(--donker-groen);
+    margin: 0 0.25em 0.5em 0.25em; // Remove top margin, increase bottom margin
   }
   p,
   a {
