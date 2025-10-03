@@ -16,8 +16,15 @@ const PitcherCard: React.FunctionComponent<PitcherCard> = ({
 }) => {
   return (
     <article className={"pitcher-card"}>
-      {afbeelding && (
+      {afbeelding ? (
         <img className="card-image" src={`/assets/images/${afbeelding}`} />
+      ) : (
+        <div className="card-image-placeholder">
+          <img
+            src="/assets/svg/FP_sticker_RGB_lampje_2.svg"
+            alt="lampje icoon"
+          />
+        </div>
       )}
       <h4>{titel}</h4>
       <h5>{subtitel}</h5>
