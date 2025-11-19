@@ -21,14 +21,7 @@ const IntroductieFrissePitchNight: React.FunctionComponent = () => {
             Hallo Frisse Pitcher! Het is dit jaar helaas niet meer mogelijk om
             jouw wilde, frisse idee in te sturen. Maar gelukkig heb je volgend
             jaar weer een kans!
-            <br />
-            <br />
-            Benieuwd wie er gaan pitchen? Kom naar de Frisse Pitch Night op 8
-            oktober in Lab Lou.
           </p>
-          <a className="btn" href="#inschrijven">
-            Frisse Pitch Night Tickets
-          </a>
         </div>
       </div>
     </section>

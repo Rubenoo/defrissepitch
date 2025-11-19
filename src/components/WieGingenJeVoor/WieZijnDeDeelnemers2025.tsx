@@ -1,5 +1,7 @@
 import "./styles.scss";
 import PitchersCarrousel from "../PitchersCarrousel/PitchersCarrousel.tsx";
+import deelnemers2025 from "../PitchersCarrousel/deelnemers2025.json";
+import { PitcherCardType } from "../PitchersCarrousel/PitcherCard/PitcherCard.tsx";
 
 const WieZijnDeFinalisten: React.FunctionComponent = () => {
   return (
@@ -17,7 +19,9 @@ const WieZijnDeFinalisten: React.FunctionComponent = () => {
           hopen naar huis te gaan met <b>€1.000</b> prijzengeld om hun idee uit
           te kunnen voeren.
         </p>
-        <PitchersCarrousel />
+        <PitchersCarrousel
+          PitchersArray={deelnemers2025 as Array<PitcherCardType>}
+        />
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import "./styles.scss";
-type PitcherCard = {
+export type PitcherCardType = {
   titel: string;
   subtitel?: string;
   beschrijving: string;
@@ -7,7 +7,7 @@ type PitcherCard = {
   link?: string;
 };
 
-const PitcherCard: React.FunctionComponent<PitcherCard> = ({
+const PitcherCard: React.FunctionComponent<PitcherCardType> = ({
   afbeelding,
   titel,
   subtitel,

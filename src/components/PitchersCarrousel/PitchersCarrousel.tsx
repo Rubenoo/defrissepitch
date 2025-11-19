@@ -1,6 +1,5 @@
 import "./styles.scss";
-import PitchersJSON from "./deelnemers2025.json";
-import PitcherCard from "./PitcherCard/PitcherCard.tsx";
+import PitcherCard, { PitcherCardType } from "./PitcherCard/PitcherCard.tsx";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -19,24 +18,30 @@ const responsive = {
   },
 };
 
-const PitchersCarrousel: React.FunctionComponent = () => {
-  const PitchersArray = PitchersJSON as Array<PitcherCard>;
+interface PitchersCarrouselProps {
+  readonly PitchersArray: readonly PitcherCardType[];
+}
 
+const PitchersCarrousel: React.FunctionComponent<PitchersCarrouselProps> = ({
+  PitchersArray,
+}) => {
   return (
-    <Carousel
-      infinite
-      responsive={responsive}
-      autoPlay
-      autoPlaySpeed={8000}
-      arrows={false}
-      renderButtonGroupOutside
-      customButtonGroup={<CarrouselControls />}
-      itemClass="px-3"
-    >
-      {PitchersArray.map((pitch, index) => (
-        <PitcherCard key={index} {...pitch} />
-      ))}
-    </Carousel>
+    <div className="pitchers-carousel-container">
+      <Carousel
+        infinite
+        responsive={responsive}
+        autoPlay
+        autoPlaySpeed={8000}
+        arrows={false}
+        renderButtonGroupOutside
+        customButtonGroup={<CarrouselControls />}
+        itemClass="px-3"
+      >
+        {PitchersArray.map((pitch, index) => (
+          <PitcherCard key={index} {...pitch} />
+        ))}
+      </Carousel>
+    </div>
   );
 };
 
