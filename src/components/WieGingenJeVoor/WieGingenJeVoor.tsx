@@ -14,25 +14,12 @@ const WieGingenJeVoor: React.FunctionComponent = () => {
         alt="lampje icoon"
       />
       <div className="wiegingenjevoor">
-        <h3>Wie gingen je voor?</h3>
-
-        <div className="year-section">
-          <div className="year-header">
-            <h4>2024</h4>
-          </div>
-          <PitchersCarrousel
-            PitchersArray={pitchers2024 as Array<PitcherCardType>}
-          />
-        </div>
-
-        <div className="year-section">
-          <div className="year-header">
-            <h4>2023</h4>
-          </div>
-          <PitchersCarrousel
-            PitchersArray={pitchers2023 as Array<PitcherCardType>}
-          />
-        </div>
+        <h3 className="pb-4 pb-lg-5">Wie gingen je voor?</h3>
+        <PitchersCarrousel
+          PitchersArray={
+            [...pitchers2024, ...pitchers2023] as Array<PitcherCardType>
+          }
+        />
       </div>
     </section>
   );

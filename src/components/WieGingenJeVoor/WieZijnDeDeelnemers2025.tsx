@@ -1,6 +1,6 @@
 import "./styles.scss";
 import PitchersCarrousel from "../PitchersCarrousel/PitchersCarrousel.tsx";
-import deelnemers2025 from "../PitchersCarrousel/deelnemers2025.json";
+import winnaars2025 from "../PitchersCarrousel/winnaars2025.json";
 import { PitcherCardType } from "../PitchersCarrousel/PitcherCard/PitcherCard.tsx";
 
 const WieZijnDeFinalisten: React.FunctionComponent = () => {
@@ -20,7 +20,7 @@ const WieZijnDeFinalisten: React.FunctionComponent = () => {
           te kunnen voeren.
         </p>
         <PitchersCarrousel
-          PitchersArray={deelnemers2025 as Array<PitcherCardType>}
+          PitchersArray={winnaars2025 as Array<PitcherCardType>}
         />
       </div>
     </section>

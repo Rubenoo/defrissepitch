@@ -3,11 +3,11 @@ import PitchersCarrousel from "../PitchersCarrousel/PitchersCarrousel.tsx";
 import winnaars2025 from "../PitchersCarrousel/winnaars2025.json";
 import { PitcherCardType } from "../PitchersCarrousel/PitcherCard/PitcherCard.tsx";
 
-const WinnaarsFrissePitch2024: React.FunctionComponent = () => {
+const WinnaarsFrissePitch2025: React.FunctionComponent = () => {
   return (
     <section className={"position-relative pt-0 pt-lg-5 z-0"}>
       <div className="wiegingenjevoor">
-        <h3>Winnaars van de Frisse Pitch Night 2024</h3>
+        <h3>Winnaars van de Frisse Pitch Night 2025</h3>
         <p className={"pitch"}>
           Deze geweldige initiatieven gingen je voor en hebben <b>€1.000</b>{" "}
           gewonnen om hun planet proof idee voor Zeist te gaan realiseren.
@@ -20,4 +20,4 @@ const WinnaarsFrissePitch2024: React.FunctionComponent = () => {
   );
 };
 
-export default WinnaarsFrissePitch2024;
+export default WinnaarsFrissePitch2025;
