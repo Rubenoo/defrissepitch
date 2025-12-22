@@ -49,10 +49,7 @@ const IdeeCriteria: React.FC = () => {
               Als initiatiefnemers blijf je eindverantwoordelijk en eigenaar van
               het concept.
             </li>
-            <li>
-              Jouw idee start in 2025 en is uitvoerbaar binnen budget en één
-              jaar tijd.
-            </li>
+            <li>Jouw idee is uitvoerbaar binnen budget en één jaar tijd.</li>
           </ul>
         </div>
         <div className="col-lg-3 col-12">

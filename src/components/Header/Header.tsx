@@ -63,15 +63,15 @@ const Header: React.FunctionComponent = () => {
                     Contact
                   </button>
                 </li>
-                <li className="nav-item">
-                  <button
-                    className="nav-link"
-                    data-bs-dismiss="offcanvas"
-                    onClick={handleClick("inschrijven")}
-                  >
-                    Aanmelden
-                  </button>
-                </li>
+                {/*<li className="nav-item">*/}
+                {/*  <button*/}
+                {/*    className="nav-link"*/}
+                {/*    data-bs-dismiss="offcanvas"*/}
+                {/*    onClick={handleClick("inschrijven")}*/}
+                {/*  >*/}
+                {/*    Aanmelden*/}
+                {/*  </button>*/}
+                {/*</li>*/}
               </ul>
             </div>
           </div>

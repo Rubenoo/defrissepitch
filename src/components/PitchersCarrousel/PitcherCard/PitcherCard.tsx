@@ -14,6 +14,8 @@ const PitcherCard: React.FunctionComponent<PitcherCardType> = ({
   beschrijving,
   link,
 }) => {
+  const jaar = afbeelding?.split("/")[0];
+  const subtitelFormated = subtitel && `${subtitel}, winnaar ${jaar}`;
   return (
     <article className={"pitcher-card"}>
       {afbeelding ? (
@@ -27,7 +29,7 @@ const PitcherCard: React.FunctionComponent<PitcherCardType> = ({
         </div>
       )}
       <h4>{titel}</h4>
-      <h5>{subtitel}</h5>
+      <h5>{subtitelFormated}</h5>
       <p>{beschrijving}</p>
       {link && (
         <a href={link} target="_blank">
