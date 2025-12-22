@@ -1,5 +1,4 @@
 import "./styles.scss";
-import PitchersCarrousel from "../PitchersCarrousel/PitchersCarrousel.tsx";
 
 const WieZijnDeFinalisten: React.FunctionComponent = () => {
   return (
@@ -17,7 +16,7 @@ const WieZijnDeFinalisten: React.FunctionComponent = () => {
           publiek, en hopen naar huis te gaan met <b>€1.000</b> prijzengeld om
           hun idee uit te kunnen voeren.
         </p>
-        <PitchersCarrousel />
+        {/*<PitchersCarrousel />*/}
       </div>
     </section>
   );
